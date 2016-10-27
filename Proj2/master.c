@@ -6,9 +6,6 @@
 
 #include "Proj2.h"
 
-void printUsage();
-void myHandler();
-void segFault();
 static int sharedMem;
 static int *num;    //0 in shared memory
 static int *turn;   //num + 1 in shared memory

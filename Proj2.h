@@ -28,6 +28,6 @@ enum State {idle = 0, want_in, in_cs};
 void detachEverything();
 void myHandler();
 void segFault();
-
+void printUsage();
 
 #endif /* Proj1_h */
